@@ -1,0 +1,412 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+
+\tableofcontents
+
+\newpage
+
+\section{Typischer Ablauf: Optische Litographie}
+\begin{center}
+\textbf{Vorbereitung} (Siehe 2.)\\
+$\downarrow$\\
+Probe unter Mikroskop begutachten\\
+$\downarrow$\\
+\textbf{Probe reinigen} (Siehe 3.)\\
+\bigskip
+\textit{Währendessen:}\\
+\textbf{Maske einbauen/wechseln} (Siehe 4.)\\
+$\downarrow$\\
+\textbf{Lack auftragen} (Siehe 5.)\\
+$\downarrow$\\
+\textbf{Probe belichten} (Siehe 6.)\\
+\textit{Falls nötig auch eine Randentlackung machen}\\
+$\downarrow$\\
+\textbf{Photolack entwickeln} (Siehe 7.)\\
+$\downarrow$\\
+Probe unter Mikroskop begutachten\\
+$\downarrow$\\
+\textbf{Höhenprofil aufnehmen} (Siehe 8.)\\
+$\downarrow$\\
+\textbf{Fertig}
+\end{center}
+
+
+
+\section{Vorbereitung}
+\begin{itemize}
+\item \textbf{Handschuhe} und \textbf{Mundschutz} anziehen.
+\item \textbf{Stickstoff} und \textbf{Druckluft} im Nebenraum (1.120, Service 1) aufdrehen
+\item \textbf{Belichtungsmaschine} einschalten (Braucht ca. 20min bis die Lampe aufgeheizt ist)
+
+\begin{description}
+\item 1) \textbf{On} drücken $\rightarrow$ Fertig bei \textbf{ready}
+\item 2) \textbf{CP} drücken (constant power)
+\item 3) \textbf{Start} drücken $\rightarrow$ \textit{Dauert nun ca. 20 min}\\
+\textit{Braucht später nach dem Ausschalten erneut ca. 25 min bis abgekühlt ist}
+\end{description}
+
+\item \textbf{Vakuumpumpe} einschalten
+\item \textbf{Pinzette} mit Aceton und anschließend mit Iso-Propanol und jeweils einem Reinraumtuch säubern.
+\item \textbf{Heizplatte} einschalten. Anschließend die benötigte Zieltemperatur durch Drücken der \textbf{Set}-Taste (gedrückt halten) und den \textbf{Pfeiltasten} einstellen.
+\end{itemize}
+
+\newpage
+
+\section{Probe reinigen}
+\begin{center}
+\begin{tabular}{| l | p{10cm} |} \hline
+\textbf{5 Kleine Gläschen} & 2 für Aceton und 3 für Iso-Propanol\\
+& (Gläschen beschriften bzw. irgendwie unterscheiden!)\\ \hline
+\textbf{1 Großes Glas} & Für das Aceton und Iso-Propanol Rest-Gemisch (Waste)\\ \hline
+\textbf{Pinzette} & \\
+\textbf{Reinraumtücher} & \\
+\textbf{Schutzbrille} & \\ \hline
+\end{tabular}
+\end{center}
+
+\bigskip
+
+\begin{center}
+\textbf{Reinigungsprozess:}
+\end{center}
+\begin{tabular}{l p{14cm}}
+\underline{Bemerkung:} & Eventuell vor und nach dem Reinigen \textbf{Bilder vom Chip am Mikroskop abspeichern}, um später nachverfolgen zu können, woher möglicher Dreck/Fehlstellen kommen könnten.
+\end{tabular}
+
+
+\begin{description}
+\item 1) \textbf{5 kleine Gläschen} nehmen und mit 2 mit Aceton bzw. 3 mit Iso-Propanol und einem \textbf{Reinraumtuch} reinigen.
+
+\item 2) Probe mit \textbf{Pinzette} nehmen, Oberfläche \textbf{dauerhaft mit Aceton benetzen} und währenddessen in das Aceton-Gläschen legen. Dieses anschließend ein wenig mit Aceton \textbf{auffüllen}, bis die Probe bedeckt ist.\\ 
+\underline{\textbf{Wichtig:}} Niemals das Aceton am Chip trocknen lassen ($\rightarrow$ Sonst \textbf{Schlierenbildung})
+\begin{center}
+\textit{Schritt 2 einmal wiederholen}
+\end{center}
+
+\item 3) Probe mit \textbf{Pinzette} nehmen, Oberfläche \textbf{dauerhaft mit Iso-Propanol benetzen} und währenddessen in das Iso-Gläschen legen. Dieses anschließend ein wenig mit Iso \textbf{auffüllen}, bis die Probe bedeckt ist.\\ 
+\underline{\textbf{Wichtig:}} Auch hier das Isopropanol nicht auf der Probe trocken werden lassen.
+\begin{center}
+\textit{Diesen 3 zweimal wiederholen}
+\end{center}
+
+\item 5) Probe aus Gläschen nehmen, dabei etwas Iso-Propanol \textbf {abspühlen}. Dann zügig und vorsichtig auf Reinraumtuch legen, gut festhalten und mit \textbf{Stickstoff trocken blasen}.\\
+
+\item 6) Probe auf \textbf{Heizplatte} legen und für \textbf{ca. 10s} (Bei Silizium) bzw. \textbf{ca. 10-20s} (sonst) trocknen.\\
+
+\item 7) Abschließend die Probe unter dem \textbf{Mikroskop begutachten}. Falls Unreinheiten erkennbar $\rightarrow$ Eventuell zunächst Isopropanol abspühlen und erneut trocken blasen.\\
+
+Falls Schmutz immernoch vorhanden $\rightarrow$ \textbf{Reinigung wiederholen...} (Zuvor benutzte Acetongläschen erneut reinigen!)
+\end{description}
+
+\newpage
+
+\section{Maske einbauen bzw. wechseln}
+\begin{center}
+\textbf{\underline{Vorbereitung}}
+\end{center}
+\begin{description}
+\item i) Die \textbf{neu einzubauende Maske} unter dem Mikroskop begutachten. Falls nötig mit Aceton, Iso-Propnaol und evtl. Reinraumtüchern reinigen.
+\item ii) Beide \textbf{seitliche große Rädchen} am Mask-Aligner auf 10 stellen (Zentriert den Probentisch)
+\item iii) \textbf{Vordere kleine herausstehende Platte} durch vorderes, kleines Rädchen (auf der rechten Seite) mittig positionieren (Ermöglicht Rotation um z-Achse).
+\item iv) \textbf{MaskAligern starten:\footnotemark[1]}\\ 
+(Grüner Kippschalter auf \textbf{On} kippen $\rightarrow$ \textbf{Load} drücken $\rightarrow$ \textit{Miksoskop fährt herunter)}
+\end{description}
+
+\footnotetext[1]{Der MaskAligner lässt sich nicht starten, wenn die Lampe nicht aufgeheizt ist. Daher muss diese zuvor (Am besten zu Beginn der Litho) eingeschaltet werden.}
+\bigskip
+
+\begin{center}
+\textbf{\underline{Einbauen bzw. wechseln}}
+\end{center}
+
+\begin{description}
+
+\item 1) \textbf{CHANGE MASK} drücken $\rightarrow$ \textit{Mikroskop fährt hoch}
+
+\begin{description}
+
+\item \underline{Beim Wechseln...}
+\item 2) Maskenhalter herausziehen und umgedreht links auf der Ablage ablegen (Dabei eine Hand unter die Maske halten, falls sie runterfallen sollte)\newline
+\textbf{Enter} drücken (entfernt Vakuum) $\rightarrow$ Alte Maske entfernen
+
+\item \underline{Beim Einbauen...}
+\item 2) Kleinen (bzw. großen) Maskenhalter aus Schrank nehmen und links umgedreht auf die Ablage legen. Vakuumschlauch anschließen.
+
+\end{description}
+
+\item 3) \textbf{Neue Maske} mit der dunklen Seite (Chrom-Seite) nach oben so \textbf{positionieren}, dass gewünschte Struktur möglichst mittig ist und die Maske von genügend Löchern für das spätere Vakuum angesogen werden kann.
+
+\item 4) \textbf{Enter} drücken $\rightarrow$ \textit{Aktiviert (Deaktiviert) das Vakuum}\\
+\textbf{Wichtig:} Testen, ob Maske wirklich korrekt angezogen wird!
+
+\item 5) \textbf{Maskenhalter} vorsichtig wieder einsetzen und währendessen mit einer Hand die angesogene Maske vor einem möglichen Fall schützen.
+
+\item 7) \textbf{CHANGE MASK} drücken $\rightarrow$ Fertig
+\end{description}
+
+\newpage
+
+\section{Lack auftragen}
+
+\begin{tabular}{| p{5cm} | p{10cm} |} \hline
+\textbf{Pipette und Pipettenaufsätzen} & Befinden sich im Glas-Regal rechts hinten im Raum\\ \hline
+\textbf{Benötigter Lack} & Befindet sich auf im Glas-Regal.\newline
+\textbf{Achtung:} Lack vorsichtig und langsam rübertragen!\\ \hline
+\textbf{Großes Glas} & Zum Zwischenlagern der Pipette\\ \hline
+\textbf{Metallplatte} & Zum Abkühlen des Chips und damit sich der Lack anpassen kann\\ \hline
+\textbf{Spincoater} und \textbf{Heizplatte} & Heizplatte sollte bereits nach Betreten des Litho-Raums auf die gewünschte Temperatur gestellt werden.\\ \hline
+
+\end{tabular}
+
+\bigskip
+
+\begin{description}
+\item 1) \textbf{Spincoater zusammenbauen}
+
+\item 2) \textbf{Schleuder einschalten} (grüner Kippschalter)\newline
+$\rightarrow$ Warten, bis alle Tests durchlaufen sind und die Fehlermeldung \textbf{Empty Battery} erscheint\newline
+$\rightarrow$ Zum Quittieren \textbf{Enter} drücken
+
+\item 3) \textbf{Rezept} einprogrammieren:\newline
+\textbf{Edit} $\rightarrow$ (Edit Menu) $\rightarrow$ \textbf{Edit} $\rightarrow$ (A blinkt) $\rightarrow$ mit \textbf{Shift} rechts auf \textbf{Edit} (Um das Rezept zu ändern) $\rightarrow$ \textbf{Enter} $\rightarrow$ \textbf{EDIT} $\rightarrow$ \textbf{Enter} $\rightarrow$ Gewünschte Parameter eingeben (Jeweils mit \textbf{Enter} bestätigten)\\
+\begin{center}
+\begin{tabular}{|l | c | l|}\hline
+\textbf{Parameter} & \textbf{Beispiel} & \textbf{Beschreibung}\\ \hline
+rpm & 6000 & rotations per minute\\
+Ramp & 10 & Zeit, um auf gewünschte rpm zu kommen\\
+Out & & Keine Angabe\\
+Time & 40 & Gesamte Schleuderzeit\\
+E & n & Keine Angabe\\ \hline
+\end{tabular}
+\end{center}
+
+\textbf{Zurück-Symbol} drücken $\rightarrow$ (Main MENU) $\rightarrow$ \textbf{Run} $\rightarrow$ \textbf{Run} $\rightarrow$ \textit{Rezept A auswählen} $\rightarrow$ Mit \textbf{Enter} bestätigten
+
+\item 4) \textbf{Lackschleuder Vakuum} drücken $\rightarrow$ \textit{Vakuum-Pumpe wird eingeschaltet}
+
+\item 5) Rezept zunächst mit Dummy-Chip überprüfen
+\begin{description}
+\item i) Gummiring mittig platzieren und Dummy-Chip darauf legen 
+\item ii) \textbf{Vakuum} drücken und überprüfen, dass Chip angesogen wird
+\item iii) Mit \textbf{Start} oder \textbf{F1} Rezept starten und dabei Parameter überprüfen
+
+\end{description}
+
+\item 6) Aufsatz auf Pipette stecken, die Spitze mit Stickstoff reinigen, die zu entnehmende Menge durch Drehen an der Pipette einstellen und den Lack vorsichtig in die Pipette füllen. $\rightarrow$ Pipette auf größerem Glas zwischenlagern und Lackglas verschließen
+
+\item 7) Etwas vom Lack aus Pipette entfernen, um Luftblasen zu vermmeiden, anschließend zügig den Lack auf die Probe auftragen und Rezept durch \textbf{Start} oder \textbf{F1} starten.
+
+\item 8) Anschließend mit bloßem Auge und/oder am Mikroskop (Mit \textbf{Rotfilder}!) Lack auf glatte Oberfläche überprüfen\newline
+\textbf{Hinweis:} Sollte der Lack Unregelmäßigkeiten (z.B. Schlieren) aufweisen, muss der Lack entfernt werden (Mit Aceton oder speziellen Lackentfernern), die Probe nochmal gereinigt werden und der Lack erneut aufgetragen werden.
+
+\item 9) Sieht die Lackoberfläche gut aus, die Probe \textbf{einige Minuten} (Abhängig vom Lack $\rightarrow$ evtl. Liste vor Ort berücksichtigen) auf die Heizplatte legen und anschließend erneut \textbf{ca. 2-5min} auf der Kühlplatte auskühlen lassen.
+
+\end{description}
+
+\newpage
+
+\section{Chip und Maske angleichen und belichten}
+\begin{center}
+\begin{tabular}{| l | c | l |}
+\multicolumn{3}{c}{Unter \textbf{EDIT PARAMETER} veränderbare Einstellungen}\\ \hline
+& Beispiel & \\ \hline
+\textbf{Process:}  & Lithography & Prozess\\ \hline
+\textbf{Exp. Time[s]:} & 4,5 & Belichtungszeit\\ \hline
+\textbf{Al. Gap[$\mu m$]:} & 200 & Abstand \textit{Probe - Maske} 
+während des Anpassens\\ \hline
+\textbf{Expose Type:} & Hard & Probe wird an Maske gepresst\\ \hline
+\textbf{HC Wait T.[s]:} & 2 & Keine Angabe\\ \hline
+\textbf{WEC Type:} & Cont & Wedge Error Compensation\\ \hline
+\textbf{N2 Purge:} & No & Yes : Stickstoff, No: Kein Stickstoff\\ \hline
+\textbf{WEC Offset:} & Off & Keine Angabe\\ \hline
+\end{tabular}
+\end{center}
+
+\begin{description}
+\item 1) \textbf{Merken}, wo sich das benötigte Bild auf der Maske befindet.
+
+\item 2) \textbf{Load} drücken $\rightarrow$ Schublade bis zum Anschlag herausziehen
+
+\item 3) Probe nun \textbf{grob positionieren}, sodass Probe Löcher überdeckt und später angesogen werden kann
+
+\item 4) \textbf{Enter} drücken $\rightarrow$ \textit{Probe wird angesogen (Dies auch überprüfen!)}
+
+\item 5) Schubladen wieder einfahren und grob von oben schauen, ob Probe gut genug positioniert ist\newline
+
+\underline{Sollte Probe und Bild zu weit entfernt liegen:}\\ 
+\textbf{Probe neu positionieren:} \textbf{Unload} drücken $\rightarrow$ Schublade rausziehen $\rightarrow$ \textbf{Enter} drücken (Vakuum wird aufgehoben) $\rightarrow$ Position korrigieren $\rightarrow$ \textbf{Enter} drücken (Vakuum wird eingeschaltet) $\rightarrow$ \textbf{Load} drücken $\rightarrow$ Schublade einfahren\\
+\textbf{Eventuell Maske neu positionieren:} Siehe 4.
+
+\item 6) (Wenn Probe gut positioniert ist) $\rightarrow$ \textbf{Enter} drücken \newline 
+$\rightarrow$ \textit{Probe wird an die Maske gepresst und dann den in \textbf{Al. Gap [$\mu m$]} gewählten Abstand von ihr entfernt.}
+
+\textbf{Hinweis:} Sollte das Licht bei \textbf{BSA MICROSCOPE} leuchten,  sollte dieses nun ausgeschaltet werden.
+
+\item 7) In das Mikroskop schauen und mit Pfeiltasten die Probe und das gewünschte Bild suchen (Geht schneller, wenn die Taste \textbf{FAST} gedrückt wurde). DIe Probe mit den seitlichen großen 2 Rädchen in x- und y-Richtung verschieben und mit dem kleineren Rädchen vorne rechts so um die z-Achse rotieren, bis Maske und Probe wie gewünscht übereinstimmen.\newline
+\textbf{Hinweis:} Auf bereits bestehende Identifier achten, sollte einer vorhanden sein (Evtl. muss Probe neu positioniert werden $\rightarrow$ Siehe Schritt 5) )
+
+\item 8) Mit \textbf{ALIGNN CONT/EXP} wird die Probe (Wie während des Belichtens auch) gegen die Maske gepresst. Nun kann überprüft werden, dass die Probe nicht beim Andrücken (Aufgrund unterschiedlich hoher Lackberge am Rand) verrutscht. ($\rightarrow$ Erneut drücken, damit Probe wieder entfernt wird)
+
+\item 9) Liegt Probe wie gewünscht $\rightarrow$ \textbf{Exposure} drücken $\rightarrow$ \textit{Startet die Belichtung}
+\begin{center}
+\textbf{Nicht in die austretende UV-Strahlung blicken!}
+\end{center}
+
+\item 10) \textbf{Unload} drücken $\rightarrow$ Schublade herausziehen $\rightarrow$ \textbf{Enter} drücken (Entfernt Sog) $\rightarrow$ Probe entfernen $\rightarrow$ Maske (Falls nicht mehr benötigt) wie in \textbf{4. Maske wechseln} beschrieben entfernen.
+
+\end{description}
+
+
+\section{Entwickeln des Photolacks}
+
+\begin{tabular}{| p{5cm} | p{10cm} |} \hline
+\textbf{Entwickler} & Ist abhängig vom verwendeten Lack\newline
+$\rightarrow$ \textit{Siehe Liste vor Ort, welche Entwickler beim benutzten Lack verwendet wurden}\\ \hline
+\textbf{2 Kleine Gläschen} & 1 Gläschen für den Entwickler und 1 Gläschen für hochreines Wasser\\ \hline
+\textbf{Stoppuhr} & \\
+\textbf{Schutzbrille!} & \\ \hline
+\end{tabular}
+
+
+\begin{description}
+
+
+\item 0) (Eventuell Temperatur und Luftfeuchtigkeit im Raum notieren)
+
+\item 1) Beide Gläser mit Reinstwasser reinigen und eines mit selbigem auffüllen
+
+\item 3) Anderes Gläschen mit Entwickler auffüllen (komplett, damit genügend Entwickler vorhanden ist) und beide Gläser beschriften bzw. markieren.
+
+\item 4) Probe im Entwickler (Eventuell hochkant) eine gewisse Zeit (Vergleiche Liste vor Ort) gut \textbf{schwenken}, sodass die Probe permanent mit dem Entwickler in Kontakt kommt (Entwickler wird währendessen teilweise verbraucht)
+
+\item 5) Anschließend Probe im Wasserglass kurz ausspülen und anschließend mit Stickstoff trocken blasen (Und eventuell 5-10 s auf Heizplatte trocknen lassen)
+
+\item 6) Unter dem Mikroskop überprüfen, ob Struktur korrekt übertragen wurde und ob sich Fehler/Dreck gebildet haben (Falls grobe Fehler: Lack mit Aceton entfernen, ca. 15s auf Heizplatte trocknen lassen und Lack erneut auftragen)
+
+\end{description}
+
+\newpage
+
+\section{Höhenprofil (DektakXT)}
+
+\begin{description}
+\item 0) Falls Computer und Gerät ausgeschaltet sind:
+\begin{description}
+\item i) Gerät durch \textbf{weißen Schalter} (Zwischen Gerät und Computerbildschirm) \textbf{einschalten}
+\item ii) Computer starten und \textbf{Benutzer: Profilometer-User} auswählen (Das Passwort ist exakt der Name des Geräts)
+\item iii) Programm \textbf{Vision 64 starten} ($\rightarrow$ \textit{Gerät initialisiert sich, es muss immer mal OK gedrückt werden})
+\end{description}
+
+\item 1) Probe auf Probenteller legen, Lucke schließen und \textbf{Load Sample} drücken
+
+\item 2) \textbf{Tower down} drücken $\rightarrow$ \textit{Spitze fährt auf Probe herunter}
+
+\underline{Probe abfahren:} Im Programm auf der rechten Seite kann man die Probe in x-y-Richtung (\textbf{XY}) abfahren (Die geht manuell mit verschieben des \textbf{roten Punktes auf dem Fadenkreuz} oder durch angeben einer Speziellen Position als \textbf{X- und Y-Koordinate})\\
+
+\underline{Probe drehen:} Unterhalb von \textbf{XY} kann die Probe um den Winkel (\textbf{Theta}) manuell (Durch drücken der gelben Dreiecke) gedreht werden. Es kann aber auch ein bestimmter Winkel eingegeben werden (bspw. 90 Grad oder 180 Grad), um des sich die Probe dann dreht.
+
+\item 4) \textbf{Measurement Setup} drücken $\rightarrow$ Anschließend links den \textbf{Zauberstab} drücken.
+
+\item 5) Zur \textbf{Startposition} fahren und diese mit \textbf{Next} bestätigen
+\item 6) Zur \textbf{Endposition} fahren und diese mit \textbf{Next} bestätigen
+
+\item 7) Die gewünschte \textbf{Dauer} unter \textbf{Duration:} \textbf{einstellen}
+\item 8) \textbf{Die Messung} nun durch drücken des grünen Startknopfes (\textit{Measurement}) \textbf{starten} und \textbf{Kontakt mit dem Tisch vermeiden}, um Messung nicht zu behindern.
+
+\begin{center}
+\underline{\textbf{Gemessene Daten bearbeiten}}
+\end{center}
+
+\begin{description}
+\item 1) Sollte der Verlauf schräg sein:
+\begin{description}
+\item i) Rechtsklick $\rightarrow$ Bereich R hinzufügen
+\item ii) Rechtsklick $\rightarrow$ Bereich M hinzufügen
+\item iii) Mit beiden Bereichen einen Teil der Messdaten auswählen, der als eben (horizontal) angenommen wird
+\item iv) Durch drücken des Doppelpfeils (rechts oben) werden Daten angepasst
+\end{description}
+
+\item 2) Befindet sich der M und R Bereich auf unterschiedlichen Höhen, wird rechts unten der Höhenunterschied angegeben
+
+\begin{center}
+\underline{\textbf{Daten speichern}}
+\end{center}
+
+\begin{description}
+\item 1) Daten als .csv Datei abspeichern (Rechtsklick $\rightarrow$ \textit{Export data})
+
+\item 2) Messdatei speichern, um Daten im Programm später wieder aufgrunfen zu können (Links oben auf \textbf{Save})
+
+\item 3) Bild des Höhenprofils abspeichern (Rechts oben unter \textbf{Save as bitmap} oder so ähnlich)
+\end{description}
+
+\end{description}
+
+\end{description}
+
+
+\begin{landscape}
+
+\section{Übersichtstabelle}
+
+\begin{tabular}{| l | l | l || l | l | l | l | l | l | l | l | l || p{7cm} |}\hline
+\multirow{2}{*}{\textbf{Datum}} & 
+\multirow{2}{*}{\textbf{Probe}} &  
+\multirow{2}{*}{\textbf{Maske}} & 
+\multirow{2}{*}{\textbf{Lack}} & 
+\textbf{Ent-} & 
+\multirow{2}{*}{$T_{Heiz}$} & 
+\multicolumn{3}{| c |}{\textbf{Dauer [s]}} & 
+\multicolumn{3}{| c |}{\textbf{Rezept}} & 
+\multirow{2}{*}{\textbf{Kommentar}}\\ \cline{7-12}
+& & & & \textbf{wickler} & & Heizpl. & Belicht. & Entw. & rpm & ramp & time & \\ \hline \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+&&&&&&&&&&&&\\
+&&&&&&&&&&&&\\ \hline
+
+
+\end{tabular}
+
+\end{landscape}
+
+
+\end{document}
