@@ -1,0 +1,10 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Typischer Ablauf: Optische Litographie}{2}%
+\contentsline {section}{\numberline {2}Vorbereitung}{2}%
+\contentsline {section}{\numberline {3}Probe reinigen}{3}%
+\contentsline {section}{\numberline {4}Maske einbauen bzw. wechseln}{4}%
+\contentsline {section}{\numberline {5}Lack auftragen}{5}%
+\contentsline {section}{\numberline {6}Chip und Maske angleichen und belichten}{7}%
+\contentsline {section}{\numberline {7}Entwickeln des Photolacks}{8}%
+\contentsline {section}{\numberline {8}Höhenprofil (DektakXT)}{9}%
+\contentsline {section}{\numberline {9}Übersichtstabelle}{11}%

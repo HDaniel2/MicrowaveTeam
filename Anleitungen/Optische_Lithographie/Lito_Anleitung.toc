@@ -1,10 +1,22 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {german}{}
-\contentsline {section}{\numberline {1}Typischer Ablauf: Optische Litographie}{2}%
-\contentsline {section}{\numberline {2}Vorbereitung}{2}%
-\contentsline {section}{\numberline {3}Probe reinigen}{3}%
-\contentsline {section}{\numberline {4}Maske einbauen bzw. wechseln}{4}%
-\contentsline {section}{\numberline {5}Lack auftragen}{5}%
-\contentsline {section}{\numberline {6}Chip und Maske angleichen und belichten}{7}%
-\contentsline {section}{\numberline {7}Entwickeln des Photolacks}{8}%
-\contentsline {section}{\numberline {8}Höhenprofil (DektakXT)}{9}%
-\contentsline {section}{\numberline {9}Übersichtstabelle}{11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Typischer Ablauf: Optische Litographie}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Vorbereitung}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Probe reinigen}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Maske einbauen}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Maske ausbauen}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Lack auftragen}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Chip und Maske angleichen und belichten}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Entwickeln des Photolacks}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}MaskAligner ausschalten}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Übersichtstabelle}{14}%
