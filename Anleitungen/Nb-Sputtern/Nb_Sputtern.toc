@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {german}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Typischer Ablauf: Nb-Sputtern}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Wafer auf Probenhalter anbringen}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Am PC für das UHV-System anmelden}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Als erste(r) am Tag am UHV-System?}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Probenhalter ins UHV-System einschleusen}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Vorbemerkungen}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Probenhalter in Schleusenkammer (SK1) einbauen}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Probenhalter zur Sputter-Kammer bringen}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Sputtern}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Probenhalter zurück zu SK1 bringen}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Ausschleusen}{6}%

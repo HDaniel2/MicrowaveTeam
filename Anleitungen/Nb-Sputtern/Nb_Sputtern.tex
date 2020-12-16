@@ -1,0 +1,162 @@
+\documentclass[
+  ngerman,
+  twoside,
+  captions=tableheading,
+  BCOR=.5cm,
+  fontsize=11,
+  ]{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage{biblatex}
+\addbibresource{quellen.bib}
+
+\begin{document}
+
+
+\tableofcontents
+
+\newpage
+
+\chapter{Typischer Ablauf: Nb-Sputtern}
+\begin{center}
+\textbf{Probe (Wafer) auf Probenhalter anbringen}\\
+$\downarrow$\\
+\textbf{... in UHV-System einschleusen}\\
+$\downarrow$\\
+\textbf{... in Sputterkammer (Spk) handeln}\\
+$\downarrow$\\
+\textbf{Sputtern}\\
+$\downarrow$\\
+\textbf{Probe zurück in Schleusenkammer (SK1) handeln}\\
+$\downarrow$\\
+\textbf{... ausschleusen}\\
+$\downarrow$\\
+\textbf{... aus Probenhalter entfernen}
+$\downarrow$\\
+\textbf{Fertig}
+\end{center}
+
+
+\newpage
+
+
+\chapter{Wafer auf Probenhalter anbringen}
+\begin{itemize}
+\item \textbf{2 große Reinraumtücher} auf der Nassbank im Litho-Raum nebeneinander verlegen.
+\item \textbf{Probenhalter} aus dem Stickstoffschrank und \textbf{Box mit Si-Wafern} aus dem Service-Raum holen und im Litho-Raum auf den Reinraumtüchern ablegen.
+\item Kleines Döschen (Enthält: 1x Ring und 2x kl. Schrauben) für das Anbringen des Wafers am Probenhalter holen. Das Döschen befindet sich im Litho-Raum hinten rechts im Regal (In der untersten der drei Ebenen)
+\item Wafer mit Wafer-Pinzette nehmen, mit der spiegelnden Seite in die Ringhalterung einlegen und Probenhalter vorsichtig umgedreht von oben auf die untere Seite des Wafers setzen (Alternativ kann der Wafer auch auf dem Probenhalter positioniert werden und dann versucht werden, die Ringhalterung korrekt auf den Wafer aufzusetzen. Allerdings ist diese Prozedur möglicherweise etwas ungeschickter.)
+\item Kleine Schrauben an der Halterung festdrehen (Schraubendreher liegt im Regal neben den Pinzetten)
+\item Plastikdeckel (Liegen \textbf{normalerweise} im Litho-Raum herum) zum Schutz über den Wafer legen. Liegen diese nicht rum, müssen sie aufgefüllt werden (Gibt es in einem der Schränke in der Materialschleuse)
+\item \textbf{Fertig}
+\end{itemize}
+
+\begin{center}
+\textit{Soll der Wafer ins UHV-System eingeschleust werden, kann er nun so (Mit dem Plastikdeckel als Schutz) zum UHV-System getragen werden}
+\end{center}
+
+
+\chapter{Am PC für das UHV-System anmelden}
+\textbf{Ist der Benutzer am Computer abgemeldet:}\\
+Die Einloggdaten (ID und PW) befinden sich sowohl in dem Logbuch vor Ort als auch im User-Manual.\\
+
+\textbf{Anmelden im Programm zum UHV-System:} (Wie heißt das bzw. wie öffnet man es?)\\
+
+\begin{center}
+\textbf{Benutzer} (links oben in der Leiste) $\rightarrow$ \textbf{Anmelden} $\rightarrow$ \textbf{ID und PW eingeben} (Stehen im Logbuch)
+\end{center}
+
+
+\section{Als erste(r) am Tag am UHV-System?}
+Dann im \textbf{Logbuch}, das sich auf dem mittleren der drei Computer befindet, im \textbf{Vakuum-Sheet} alle Parameter die dort aufgelistet sind eintragen. Das Logbuch befindet sich auf dem Desktop. Die einzelnen Parameter sind zum einen im Programm am UHV-Computer unter \textit{Prozess} $\rightarrow$ \textit{Vakuum} zu finden (Man muss auf die jeweiligen Turbopumpen der Kammern klicken). Die Parameter für die Ätze befinden sich auf dem Computer ganz rechts.
+
+\chapter{Probenhalter ins UHV-System einschleusen}
+\section{Vorbemerkungen}
+\begin{itemize}
+\item \textbf{User-Manual}\\
+Im User-Manual (Kleines DIN A5 Heftchen) stehen umfangreiche Informationen über die Benutzung des UHV-Systems (Darin auch über das Sputtern mit Nb bzw. Au). Dennoch soll diese Anleitung den gesamten Ablauf des Nb-Sputterns mit zusätzlichen Kommentaren, die nicht im User-Manual zu finden sind, abbilden.
+\item \textbf{Unklarheiten/Ungewöhnliches}\\
+Wenn Dinge unklar sind immer Markus, Ronny, Christoph, Kevin oder Katja benachrichtigen. \textbf{Nicht eigenmächtig handeln.} Die Nummern von Markus und Ronny befinden sich auf den Notfalltelefonen und sind - neben Christoph seiner Nummer - am Telefon, das sich im selben Raum wie das UHV-System befindet, eingespeichert.
+\begin{center}
+\begin{tabular}{| c | c |}\hline
+\textbf{Name} & \textbf{Nummer}\\ \hline
+Christoph & 76316\\
+Kevin & 76318\\
+Katja & 78627\\ \hline
+\end{tabular}
+\end{center}
+
+\begin{center}
+Fehler/Fehlermeldungen im Logbuch unter dem Sheet \textbf{Fehlermeldungen} dokumentieren
+\end{center}
+
+\end{itemize}
+
+\section{Probenhalter in Schleusenkammer (SK1) einbauen}
+\begin{center}
+\textit{Im Prinzip dem User-Manual in \textbf{Kapitel 3} folgen}
+\end{center}
+\begin{itemize}
+
+\item \textbf{Turbopumpe (TP) der SK1 herunterfahren}
+\begin{itemize}
+
+\item[1)] Soll-Frequenz der TP auf \textbf{200\,Hz} stellen
+\item[2)] Warten bis Ist-Frequenz = 200\,Hz erreicht hat
+\item[3)] Ventil \textbf{VV-Vent. Y18} $\rightarrow$ ZU\\
+(Ist das Ventil zwischen Vor- und Turbopumpe)
+\item[4)] \textbf{2 Minuten warten}\\
+(In diesen 2\,min wird die Turbopumpe (hoffentlich) von 200\,Hz zum Stillstand abgebremst)
+\end{itemize}
+
+\item \textbf{SK1 fluten}
+\begin{itemize}
+\item[1)] \textbf{Prüfen}, ob \textbf{Verschlussschraube} der SK1 aufgedreht ist\\
+(Ansonsten wird die Tür aufgebogen, wenn die Kammer geflutet wird $\rightarrow$ wäre sehr schlecht)
+\item[2)] \textit{Prozess} $\rightarrow$ \textit{Schleuse} $\rightarrow$ \textit{\textbf{Fluten}}\\
+(Luft wird in die Kammer gelassen $\rightarrow$ Warten bis die Tür nach einigen Sekunden von selbst auf geht)
+\end{itemize}
+
+\item \textbf{Probe in SK1 legen}, sodass der Wafer nach unten zeigt und die beiden Einkerbungen im Probenhalter nach vorne Richtung Handlerkammer zeigen.
+\item \textbf{Türe} schließen, \textbf{Verriegelungsschraube} reindrehen bis das kleine Licht angeht (Nicht weiter drehen) $\rightarrow$ \textbf{Probenname} im Programm am UHV-Computer eintragen (Dieser Name wird im Programm dort angezeigt, wo sich die Probe befindet)
+
+\item \textbf{Fluten stoppen}
+\begin{itemize}
+\item[1)] \textbf{Prüfen}, ob \textbf{Verschlussschraube} der SK1 aufgedreht ist\\
+(Ansonsten wird die Tür aufgebogen, wenn die Kammer geflutet wird $\rightarrow$ wäre sehr schlecht)
+\item[2)] \textit{Prozess} $\rightarrow$ \textit{Schleuse} $\rightarrow$ \textit{\textbf{Fluten}}\\
+(Luft wird in die Kammer gelassen)
+\item[3)] \textbf{Warten} bis die Tür nach einigen Sekunden \textbf{von selbst} auf geht
+\end{itemize}
+
+
+
+\end{itemize}
+
+
+\textbf{Hinweis:} Nach dem in der Schleusenkammer 1 (SK1) das Fluten gestoppt wurde, das Ventil aufdrehen und nun schnell zur Tür rennen und zudrücken (Alternativ könnte die Türe auch damit mit der Schraube fest verschlossen werden. Fragt sich nur, was besser ist.)
+
+\section{Probenhalter zur Sputter-Kammer bringen}
+Auch hier nur User-Manual \textbf{Kapitel 4} folgen.
+
+\section{Sputtern}
+... \textbf{Kapitel 6} folgen
+
+\section{Probenhalter zurück zu SK1 bringen}
+Auch hier nur User-Manual \textbf{Kapitel 4} folgen.
+
+\section{Ausschleusen}
+Dem User-Manual in \textbf{Kapitel 3} folgen.\\
+\printbibliography
+
+\end{document}
